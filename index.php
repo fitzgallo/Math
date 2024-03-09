@@ -7,34 +7,15 @@
 
     </head>
     <body>
-    <?php
-ADDITION
-$x = 20;  
-$x += 100;
+<body>
 
-echo $x;
-SUBTRACTION
-$x = 50;
-$x -= 30;
+<form action="math.php" method="POST">
+input1: <input type="text" name="input1"><br>
+input2: <input type="text" name="input2"><br>
+<input type="submit">
+</form>
 
-echo $x;
-MULTIPLICATION
-$x = 5;
-$x *= 6;
-
-echo $x;
-DIVISION
-$x = 10;
-$x /= 5;
-
-echo $x;
-MODULUS
-$x = 15;
-$x %= 4;
-
-echo $x;
-?>  
-
+</body>
 
 </body>
 
